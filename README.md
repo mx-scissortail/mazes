@@ -16,4 +16,4 @@ There are three possible maze generation algorithms that can be selected from th
 	Hybrid algorithm - this is a combination of the above two algorithms.  It's not quite as orderly as algorithm 1, but not as uniformly random as algorithm 2.  It has a very organic looking growth process.
 	
 
-I am planning on implementing a version of this in each programming language I know, as programming exercise.  Presently, the Python (2.7 branch) is the only version that's finished.
+I am planning on implementing a version of this in each programming language I know, as programming exercise.  Presently, Python (2.7 branch) is the only version that's finished.
