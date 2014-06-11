@@ -88,10 +88,12 @@ class Bitmap:
 		for y in range(0, self.height * self.thickness):
 				for x in range(0, self.width * self.thickness):
 					pattern += str(self.data[x][y])
+					# We could probably speed things up a lot here using some sort of
+					# tree to look up the pattern progressively, but python's dict
+					# hash is fast enough most of the time.
 					if not codes.has_key(pattern):
 						stream.encode_bits(codes[pattern[:-1]], code_length)
 						codes[pattern] = next_code
-						#TODO: think about optimizing this bit?
 						if next_code == 2 ** code_length:
 							code_length += 1
 						next_code += 1
