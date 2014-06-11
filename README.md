@@ -15,7 +15,7 @@ There are three possible maze generation algorithms that can be selected from th
 * Algorithm 2:
 	Random search algorithm - expands outward randomly.  Very slow compared to algorithm 1, largely because the chaotic nature of its expansion forces the GIF encoder to include large sections of the image for each frame.  This looks more like liquid spreading out on a surface.
 	
-	![Algorithm 2 example](/examples/algorithm3-thickness4-128x128.gif?raw=true)
+	![Algorithm 2 example](/examples/algorithm2-thickness4-128x128.gif?raw=true)
 	
 * Algorithm 3:
 	Hybrid algorithm - this is a combination of the above two algorithms.  It's not quite as orderly as algorithm 1, but not as uniformly random as algorithm 2.  It has a very organic looking growth process.
